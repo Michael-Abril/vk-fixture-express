@@ -1,0 +1,63 @@
+/* style.css — teal theme per my favorite color */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #5eead4;
+  margin-bottom: 1rem;
+}
+
+.counter-display {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #14b8a6;
+  margin-bottom: 1.5rem;
+  transition: transform 0.1s ease;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid #14b8a6;
+  border-radius: 0.5rem;
+  background: transparent;
+  color: #14b8a6;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+button:hover {
+  background: #14b8a6;
+  color: #0f172a;
+}
+
+button:active {
+  transform: scale(0.95);
+}
